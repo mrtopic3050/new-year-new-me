@@ -62,12 +62,13 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
+
 }
 
 #hero .hero-elements .hero-subtitle {
     color: rgb(255, 255, 255);
     font-family: Merriweather;
-    font-size: 32px;
+    font-size:32px;
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 0%;
@@ -92,4 +93,53 @@
     margin-right: auto;
 
 
+}
+
+/* category styles */
+
+.category {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.category .category-title {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.category .category-description {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 36px;
+}
+
+.category .category-subtitle {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+
+.category .category-img{
+    padding-top: 36px;
+    width: 602px;
+    height: 375px;
+    padding-bottom: 90px;
 }
