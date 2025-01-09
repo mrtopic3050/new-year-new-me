@@ -53,7 +53,8 @@
     margin: 0;
     padding: 0;
 }
-.body{
+
+.body {
     background-position: center;
 }
 
@@ -243,4 +244,47 @@
     margin-right: auto;
     margin-top: 120px;
     margin-bottom: 120px;
+}
+
+.hero-2 .hero-2-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 5%;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    
+}
+
+.hero-2 .hero-2-content span {
+    color: rgb(255, 0, 0);
+
+}
+
+.hero-2 .hero-2-content button {
+    border-radius: 8px;
+
+    background: rgb(255, 0, 0);
+    width: 167px;
+    height: 56px;
+    gap: 10;
+    padding: 16px 32px 16px 32px;
+
+    /* text */
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 48px;
 }
