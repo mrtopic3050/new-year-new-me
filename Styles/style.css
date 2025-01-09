@@ -260,7 +260,7 @@
     text-transform: capitalize;
     padding-top: 100px;
     padding-bottom: 120px;
-    
+
 }
 
 .hero-2 .hero-2-content span {
@@ -287,4 +287,105 @@
     text-align: center;
     text-transform: uppercase;
     margin-top: 48px;
+}
+
+.hero-3 {
+    width: 1320px;
+    height: 463px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.hero-3-elements {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hero-3-elements .hero-3-header .hero-3-title {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 78px;
+
+}
+
+.hero-3-elements .hero-3-header {
+    width: 393px;
+    height: 255px;
+}
+
+.hero-3-elements .hero-3-header .hero-3-subtitle {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 52px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 16px;
+
+}
+
+.hero-3-elements .hero-3-header .hero-3-descrip {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 104px;
+}
+
+.hero-3-elements .hero-3-footer .footer-head {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 112px;
+    margin-right: 149px;
+}
+
+.hero-3-elements .hero-3-footer .footer-subtitle {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 279px;
+    margin-top: 16px;
+}
+
+.hero-3-elements .hero-3-picture .hero-3-pic {
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    padding: 49px;
+    margin-left: 70px;
+    margin-right: 118px;
+
+}
+
+.hero-3-elements .hero-3-footer .footer-pic {
+    width: 140px;
+    height: 140px;
+    margin-top: 46px;
+    padding-bottom: 120px;
+
 }
